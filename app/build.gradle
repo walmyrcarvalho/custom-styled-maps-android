@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+
+repositories {
+  mavenCentral()
+}
+
+android {
+  compileSdkVersion 25
+  buildToolsVersion "25.0.0"
+
+  defaultConfig {
+    applicationId "me.walmyrcarvalho.styledmaps"
+
+    minSdkVersion 17
+    targetSdkVersion 25
+
+    versionCode 1
+    versionName "1.0"
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+
+    debug {
+      minifyEnabled true
+    }
+  }
+
+  sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+  }
+}
+
+dependencies {
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+
+  compile 'com.android.support:appcompat-v7:25.1.0'
+  compile 'com.google.android.gms:play-services:10.0.1'
+
+  compile 'org.jetbrains.kotlin:kotlin-stdlib:1.0.6'
+}
+
