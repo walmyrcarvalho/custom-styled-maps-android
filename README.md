@@ -1,5 +1,8 @@
 ## Description
-This is a demonstration project with an example of [Google Map custom map styling on Android](https://developers.google.com/maps/documentation/android-api/styling)!
+This is a demonstration project with an example of [Google Maps custom map styling on Android](https://developers.google.com/maps/documentation/android-api/styling)!
+
+<img src="https://github.com/walmyrcarvalho/styledmaps/blob/master/art/device.png" width="300">
+
 
 This example will be presented on my talk on [Android Meetup #43](https://www.meetup.com/pt-BR/GDG-SP/events/236623989/)! :robot:
 
