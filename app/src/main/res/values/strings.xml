@@ -2,4 +2,8 @@
   <string name="app_name">Styled Maps</string>
 
   <string name="title_activity_maps">Styled Map</string>
+
+  <string name="content_description_fabs_layout">Layout of style selection buttons</string>
+  <string name="content_description_fab">Style button</string>
+
 </resources>

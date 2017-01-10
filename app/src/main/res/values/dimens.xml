@@ -1,4 +1,9 @@
 <resources>
   <dimen name="activity_horizontal_margin">16dp</dimen>
   <dimen name="activity_vertical_margin">16dp</dimen>
+
+  <dimen name="mini_fab_width">40dp</dimen>
+  <dimen name="fab_spacing">16dp</dimen>
+  <dimen name="fab_press_elevation">8dp</dimen>
+
 </resources>
