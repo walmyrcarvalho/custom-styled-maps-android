@@ -5,7 +5,7 @@ This example will be presented on my talk on [Android Meetup #43](https://www.me
 
 ## Technical details
 The Google Maps API key used on it is hosted on my personal account, so if it stop working in some way just [create your own key](https://developers.google.com/maps/documentation/android/start#get-key
-) and replace the `google_maps_key` value on the `google_maps_api.xml` file.
+) and replace the `google_maps_key` value on the `google_maps_api.xml` file with your own key value.
 
 ## How to run it?
 Just clone the project and import the project on Android Studio on `File > Open Project`, easy! :heart:
