@@ -46,11 +46,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
       buttonStyleOne.setOnClickListener { setMapStyle(context, R.raw.style_retro, "Retro") }
       buttonStyleTwo.setOnClickListener { setMapStyle(context, R.raw.style_silver, "Silver") }
       buttonStyleThree.setOnClickListener { setMapStyle(context, R.raw.style_dark, "Dark") }
-
-      // Let's make our own!
-      buttonStyleFour.setOnClickListener {
-        Toast.makeText(context, "Let's make our own!", Toast.LENGTH_SHORT).show()
-      }
+      buttonStyleFour.setOnClickListener { setMapStyle(context, R.raw.style_loko, "L0k0")}
 
       // Adding a marker
       addMarker(MarkerOptions().position(CAMPUS).title("Hello, Campus!"))
