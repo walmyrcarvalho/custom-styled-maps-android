@@ -3,10 +3,9 @@ This is a demonstration project with an example of [Google Maps custom map styli
 
 <img src="https://github.com/walmyrcarvalho/styledmaps/blob/master/art/device.png" width="300">
 
-
 This example will be presented on my talk on [Android Meetup #43](https://www.meetup.com/pt-BR/GDG-SP/events/236623989/)! :robot:
 
-## Technical details
+## About the Google Maps API key
 The Google Maps API key used on it is hosted on my personal account, so if it stop working in some way just [create your own key](https://developers.google.com/maps/documentation/android/start#get-key
 ) and replace the `google_maps_key` value on the `google_maps_api.xml` file with your own key value.
 
