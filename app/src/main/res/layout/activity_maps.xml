@@ -2,18 +2,65 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity"
+    android:clipChildren="false"
+    android:clipToPadding="false">
 
   <fragment
       xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:tools="http://schemas.android.com/tools"
+      android:id="@+id/map"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:id="@+id/map"
-      tools:context="me.walmyrcarvalho.styledmaps.MapsActivity"
-      android:name="com.google.android.gms.maps.SupportMapFragment"/>
+      android:name="com.google.android.gms.maps.SupportMapFragment"
+      tools:context="me.walmyrcarvalho.styledmaps.MapsActivity"/>
 
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="@dimen/activity_horizontal_margin"
+      android:contentDescription="@string/content_description_fabs_layout"
+      android:gravity="center">
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_style_one"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/fab_spacing"
+        android:src="@drawable/number_one"
+        android:contentDescription="@string/content_description_fab"
+        app:fabSize="normal"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_style_two"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/fab_spacing"
+        android:src="@drawable/number_two"
+        android:contentDescription="@string/content_description_fab"
+        app:fabSize="normal"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_style_three"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/fab_spacing"
+        android:src="@drawable/number_three"
+        android:contentDescription="@string/content_description_fab"
+        app:fabSize="normal"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_style_four"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/fab_spacing"
+        android:src="@drawable/number_four"
+        android:contentDescription="@string/content_description_fab"
+        app:fabSize="normal"/>
+  </LinearLayout>
 </RelativeLayout>
