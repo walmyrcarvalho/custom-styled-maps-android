@@ -12,7 +12,7 @@ android {
   defaultConfig {
     applicationId "me.walmyrcarvalho.styledmaps"
 
-    minSdkVersion 17
+    minSdkVersion 21
     targetSdkVersion 25
 
     versionCode 1
@@ -38,8 +38,10 @@ android {
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
 
-  compile 'com.android.support:appcompat-v7:25.1.0'
   compile 'com.google.android.gms:play-services:10.0.1'
+
+  compile 'com.android.support:appcompat-v7:25.1.0'
+  compile 'com.android.support:design:25.1.0'
 
   compile 'org.jetbrains.kotlin:kotlin-stdlib:1.0.6'
 }
