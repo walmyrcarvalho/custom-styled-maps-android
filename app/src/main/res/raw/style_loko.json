@@ -1,0 +1,82 @@
+[
+  {
+    "featureType": "administrative.neighborhood",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#f0ff24"
+      },
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape.natural.terrain",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#f0ff24"
+      },
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.business",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "color": "#ff2e67"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.sports_complex",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#ff2e67"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#8a48ff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#ff2e67"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "color": "#ffc46a"
+      },
+      {
+        "visibility": "on"
+      }
+    ]
+  }
+]
